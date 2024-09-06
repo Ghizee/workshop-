@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RM Tubagus Raya - Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        body {background-color: #a0a0a0;}
+        .menu-card {
+            border-radius: 10px;
+            background-color: #d1d1d1;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+            min-height:400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .menu-card img {
+            border-radius: 10px;
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s; /* Transisi untuk efek hover gambar */
+        }
+        .menu-card img:hover {
+            transform: scale(1.1); /* Membesar gambar sedikit saat hoverr */
+        }
+        .back-button {
+            font-size: 18px;
+            text-decoration: none;
+            color: #000;
+            margin-bottom: 20px;
+            display: inline-block;
+            background: #d1d1d1;
+            border-radius: 50px;
+            border-color: #686868;
+            padding: 10px 20px;
+        }
+        .back-button:hover {
+            background-color: #c1c1c1; /* Warna tombol saat hover */
+            border-color: #686868;
+            transform: scale(1.05); /* Membesar sedikit saat hover */
+        }
+        .btn-order {
+            background-color: #9B2C2C;
+            color: #fff;
+            border-radius: 30px;
+            padding: 5px 15px;
+        }
+        .btn-order:hover {
+            background-color: #7f2323; /* Warna tombol saat hover */
+            transform: scale(1.05); /* Membesar sedikit saat hover */
+        }
+        @media (max-width: 768px) {
+            .circle {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <a href="home.html" class="btn back-button rounded-pill">
+            <i class="fas fa-arrow-left"></i> kembali
+        </a>
+        
+        <div style="text-align: center;">
+            <img src="img/logo_rtr-removebg-preview.png" alt="RM Tubagus Raya" class="mb-4" width="200px">
+        </div>
+        
+        <div class="row g-4">
+            <!-- Menu 1 - Rendang -->
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="https://images.solopos.com/2020/07/rendang-.jpg" alt="Rendang">
+                    <h5 class="mt-3">Rendang</h5>
+                    <p>18K</p>
+                    <a href="order.html" class="btn btn-order">Pesan</a>
+                </div>
+            </div>
+            <!-- Menu 2 - Ayam Gulai -->
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="https://asset.kompas.com/crops/eUKWXc4DdS2sXTPMdNRR3sAvR_o=/0x0:1000x667/750x500/data/photo/2021/05/20/60a62781c1f07.jpg" alt="Ayam Gulai">
+                    <h5 class="mt-3">Ayam Gulai</h5>
+                    <p>18K</p>
+                    <a href="order.html" class="btn btn-order">Pesan</a>
+                </div>
+            </div>
+            <!-- Menu 3 - Gulai Cincang -->
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="https://img-global.cpcdn.com/recipes/6140fa62ba11f4b4/680x482cq70/gulai-cincang-daging-khas-minang-padang-foto-resep-utama.jpg" alt="Gulai Cincang">
+                    <h5 class="mt-3">Gulai Cincang</h5>
+                    <p>18K</p>
+                    <a href="order.html" class="btn btn-order">Pesan</a>
+                </div>
+            </div>
+            <!-- Menu 4 - Ayam Rendang -->
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="https://th.bing.com/th/id/OIP.w1DUtj2-DEIOG5bJQpsOlAHaFa?rs=1&pid=ImgDetMain" alt="Ayam Rendang">
+                    <h5 class="mt-3">Ayam Rendang</h5>
+                    <p>18K</p>
+                    <a href="order.html" class="btn btn-order">Pesan</a>
+                </div>
+            </div>
+            <!-- Menu 5 - Gulai Tongkol -->
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="https://www.riauonline.co.id/foto/bank/images2/Ikan-patin-asam-pedas.jpg" alt="Gulai Tongkol">
+                    <h5 class="mt-3">Gulai Tongkol</h5>
+                    <p>15K</p>
+                    <a href="order.html" class="btn btn-order">Pesan</a>
+                </div>
+            </div>
+            <!-- Menu 6 - Gulai Tunjang -->
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="https://img.herstory.co.id/articles/archive_20220421/gulai-tunjang-20220421-083517.jpg" alt="Gulai Tunjang">
+                    <h5 class="mt-3">Gulai Tunjang</h5>
+                    <p>25K</p>
+                    <a href="order.html" class="btn btn-order">Pesan</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

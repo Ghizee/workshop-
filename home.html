@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RM Tubagus Raya</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #CCCCCC; /* Warna latar belakang halaman */
+        }
+
+        .bg-custom-gray {
+            background-color: #a0a0a0; /* Warna abu-abu sesuai latar belakang containerr */
+        }
+
+        .circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .bg-brown {
+            background-color: #85615B; /* Warna coklat sesuai dengan desainn */
+        }
+
+        p, h5, h1 {
+            color: #333333; /* Warna teks sesuai dengan desain */
+        }
+
+        .bg-lightgray {
+            background-color: rgb(136, 136, 136);
+        }
+
+        .btn-custom {
+            background-color: #d1d1d1; /* Warna tombol */
+            border-color: #686868;
+        }
+
+        .btn-custom:hover {
+            background-color: #d1d1d1; /* Warna tombol saat hover */
+            border-color: #686868; /*border*/
+            transform: scale(1.05); /* Membesar sedikit saat hover */
+        }
+
+        .img-hover {
+            transition: transform 0.3s; /* Transisi untuk efek hover gambar */
+        }
+
+        .img-hover:hover {
+            transform: scale(1.1); /* Membesar gambar sedikit saat hover */
+        }
+
+
+        @media (max-width: 768px) {
+            .circle {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid bg-custom-gray p-5">
+        <div class="text-center">
+            <!-- Mengganti logo.png dengan logo baru dan mengubah lebar menjadi 200px -->
+            <img src="img/logo_rtr-removebg-preview.png" alt="RM Tubagus Raya" class="mb-4" width="200px">
+        </div>
+        <div class="text-left">
+            <h1 class="fw-bold">Selamat Datang di RM Tubagus Raya!</h1>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <p>Rasakan cita rasa autentik masakan Padang yang melegenda di "RM Tubagus Raya". Kami menghadirkan kelezatan dari setiap suapan, mulai dari rendang yang kaya rempah hingga sambal hijau yang pedas menggugah selera. Setiap hidangan kami disiapkan dengan penuh cinta dan resep turun-temurun yang telah terjaga selama bertahun-tahun.</p>
+                <p>Nikmati pengalaman kuliner yang tak terlupakan, di mana tradisi bertemu dengan kehangatan suasana rumah makan kami. Mari bergabung bersama keluarga besar "RM Tubagus Raya" dan temukan kenikmatan sejati masakan Minang.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <button class="btn btn-custom rounded-pill px-4 py-2 mt-4" onclick="window.location.href='menu.html'">Menu</button>
+            </div>
+        </div>
+    <footer class="bg-lightgray"> 
+        <div class="row mt-5">
+            <div class="col-12 text-center ">
+                <h5>Contact us</h5>
+                <p>0813678944567</p>
+                <p>example@gmail.com</p>
+            </div>
+        </div>
+        <div class="row mt-4 justify-content-center ">
+            <div class="col-1">
+                <div class="circle bg-brown"></div>
+            </div>
+            <div class="col-1">
+                <div class="circle bg-brown"></div>
+            </div>
+            <div class="col-1">
+                <div class="circle bg-brown"></div>
+            </div>
+        </div>
+    </footer> 
+    </div>
+</body>
+</html>
